@@ -15,8 +15,20 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (health > numberofAnkhs) {
+            health = numberofAnkhs;
+        }
         for (int i = 0; i < ankhs.Length; i++)
         {
+            if (i < health)
+            {
+                ankhs[i].sprite = fullAnkh;
+            }
+            else
+            {
+                ankhs[i].sprite = emptyAnkh;
+            }
+
             if (i < numberofAnkhs)
             {
                 ankhs[i].enabled = true;
