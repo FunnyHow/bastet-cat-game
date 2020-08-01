@@ -413,6 +413,7 @@ GameObject:
   - component: {fileID: 4135579325825431870}
   - component: {fileID: 4135579325825431869}
   - component: {fileID: 4135579325825431868}
+  - component: {fileID: 7972224860608740526}
   m_Layer: 0
   m_Name: cat_sprite_sheet
   m_TagString: Untagged
@@ -528,6 +529,25 @@ MonoBehaviour:
     m_Extent: {x: 11.164923, y: 7.1795306, z: 0.21762913}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
+--- !u!95 &7972224860608740526
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135579325825431867}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6e7e5c25af5041626a55ba21d7addab7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4135579325914965820
 GameObject:
   m_ObjectHideFlags: 0
