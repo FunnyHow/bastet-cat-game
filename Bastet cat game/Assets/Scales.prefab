@@ -639,7 +639,7 @@ PrefabInstance:
       objectReference: {fileID: 190587466477461823}
     - target: {fileID: 8079836333314435523, guid: f996b76a8d3e3649d8eb8a6223c78020, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -2.44
+      value: -2.4399998
       objectReference: {fileID: 0}
     - target: {fileID: 8079836333314435523, guid: f996b76a8d3e3649d8eb8a6223c78020, type: 3}
       propertyPath: m_ConnectedAnchor.y
@@ -779,6 +779,10 @@ PrefabInstance:
       propertyPath: m_ConnectedRigidBody
       value: 
       objectReference: {fileID: 190587466477461823}
+    - target: {fileID: 8079836333314435523, guid: f996b76a8d3e3649d8eb8a6223c78020, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.5100005
+      objectReference: {fileID: 0}
     - target: {fileID: 8079836333314435524, guid: f996b76a8d3e3649d8eb8a6223c78020, type: 3}
       propertyPath: m_Name
       value: basket_heiroglyph
