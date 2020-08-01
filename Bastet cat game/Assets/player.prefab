@@ -346,3 +346,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aba66236532fcd4f900547e03291e05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 1169399751}
+  hiss: {fileID: 8300000, guid: 2b68d3468592f10438de48121752c175, type: 3}
+  meow: {fileID: 8300000, guid: 465c63db04749f1479647c28bd2db8bd, type: 3}
