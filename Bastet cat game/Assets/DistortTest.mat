@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DistortTest
+  m_Shader: {fileID: -6465566751694194690, guid: d81266c2eb6059d48927e69b6ff32ff2,
+    type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_DC67D479:
+        m_Texture: {fileID: 2800000, guid: 5bcc046516b0d7a4db1fa09e6d970d99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3a72399fe4571834e9364e631ed79643, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_409C4D5A_Texture_1:
+        m_Texture: {fileID: 2800000, guid: bbe43ff93f017be4abf7fc37e3dec06e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_2A7DD667: 1.1
+    - Vector1_9953A8C1: 0.54
+    - Vector1_A809E0F9: 0.59
+    m_Colors:
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4fe87dfb65e416d0dbe9485810a95c1f
+guid: 0de65fa412f5f9f448edcb258b257d49
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -23,7 +23,6 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,18 +46,17 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 14, y: 37, z: 15, w: 49}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: 0
+  spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -76,43 +74,7 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline:
-    - - {x: -73, y: 73}
-      - {x: -73, y: -73}
-      - {x: 73, y: -73}
-      - {x: 73, y: 73}
-    - - {x: -69, y: 60}
-      - {x: 69, y: 60}
-      - {x: 69, y: -59}
-      - {x: -69, y: -59}
-    - - {x: -50, y: 17}
-      - {x: -50, y: -14}
-      - {x: -44, y: -19}
-      - {x: 50, y: -19}
-      - {x: 50, y: 12}
-      - {x: 44, y: 17}
-    - - {x: -21, y: -3}
-      - {x: -18, y: -4}
-      - {x: -17, y: -3}
-      - {x: -10, y: -4}
-      - {x: -7, y: -2}
-      - {x: -1, y: -2}
-      - {x: 1, y: -3}
-      - {x: 4, y: 0}
-      - {x: 3, y: 0}
-      - {x: 2, y: -1}
-      - {x: 5, y: -4}
-      - {x: 14, y: -3}
-      - {x: 13, y: -4}
-      - {x: 14, y: -6}
-      - {x: 4, y: -7}
-      - {x: 3, y: -6}
-      - {x: -4, y: -7}
-      - {x: -5, y: -6}
-      - {x: -13, y: -7}
-      - {x: -14, y: -6}
-      - {x: -20, y: -6}
-      - {x: -21, y: -7}
+    outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
