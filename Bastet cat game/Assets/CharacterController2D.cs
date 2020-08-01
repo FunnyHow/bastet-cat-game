@@ -49,10 +49,9 @@ public class CharacterController2D : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		bool wasGrounded = m_Grounded;
-		m_Grounded = false;
         if (m_Animator != null)
         {
+            Debug.Log(m_Velocity.x);
             m_Animator.SetBool("Grounded", m_Grounded);
             m_Animator.SetBool("FacingRight", m_FacingRight);
             m_Animator.SetBool("Crouching", m_Crouching);
@@ -60,6 +59,8 @@ public class CharacterController2D : MonoBehaviour
             m_Animator.SetFloat("VelocityY", m_Velocity.y);
             m_Animator.SetFloat("VelocityZ", m_Velocity.z);
         }
+        bool wasGrounded = m_Grounded;
+        m_Grounded = false;
         // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
         // This can be done using layers instead but Sample Assets will not overwrite your project settings.
         Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
