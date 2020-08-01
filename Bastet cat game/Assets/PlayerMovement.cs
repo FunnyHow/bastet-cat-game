@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController2D))]
 public class PlayerMovement : MonoBehaviour
 {
 
-    public CharacterController2D controller;
-    bool jump = false;
-    float horizontalMove = 0f;
+    private CharacterController2D controller;
+    private bool jump = false;
+    private float horizontalMove = 0f;
     public float runSpeed = 40f;
 
-    // Update is called once per frame
+    void Start() {
+        controller = GetComponent<CharacterController2D>();
+    }
+
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
