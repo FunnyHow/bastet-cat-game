@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 4135579325825431870}
   - component: {fileID: 4135579325825431869}
   - component: {fileID: 4135579325825431868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cat_sprite_sheet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
