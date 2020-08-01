@@ -73,7 +73,6 @@ GameObject:
   - component: {fileID: 5173723778516748287}
   - component: {fileID: 5173723778516748272}
   - component: {fileID: 5173723778516748285}
-  - component: {fileID: 5173723778516748286}
   - component: {fileID: 1169399751}
   - component: {fileID: 1169399758}
   m_Layer: 8
@@ -225,19 +224,6 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5173723778516748286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5173723778516748275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffb05420edbbaec4691adccf3c8448b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runSpeed: 40
 --- !u!82 &1169399751
 AudioSource:
   m_ObjectHideFlags: 0
@@ -250,7 +236,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2b68d3468592f10438de48121752c175, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.45
   m_Pitch: 1
   Loop: 0
   Mute: 0
