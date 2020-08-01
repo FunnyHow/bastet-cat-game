@@ -5,11 +5,13 @@ using UnityEngine;
 public class PlayerInteractions : MonoBehaviour
 {
 
-    private AudioSource source;
+    public AudioSource audioSource;
+    public AudioClip hiss;
+    public AudioClip meow;
     // Start is called before the first frame update
     void Start()
     {
-        source = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -19,7 +21,13 @@ public class PlayerInteractions : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             // play the sound
-            source.Play();
+            audioSource.PlayOneShot(hiss, 0.7f);
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            // play the sound
+            audioSource.PlayOneShot(meow, 0.7f);
         }
     }
 }
