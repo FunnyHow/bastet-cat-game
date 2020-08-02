@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -24,6 +26,7 @@ public class CharacterController2D : MonoBehaviour
 	[Space]
 
 	public UnityEvent OnLandEvent;
+	public UnityEvent<CharacterController2D> OnActionEvent;
 
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
@@ -74,6 +77,9 @@ public class CharacterController2D : MonoBehaviour
 		}
 	}
 
+	public void TryAction() {
+		OnActionEvent?.Invoke(this);
+	}
 
 	public void Move(float move, bool crouch, bool jump)
 	{
@@ -81,7 +87,10 @@ public class CharacterController2D : MonoBehaviour
 		if (!crouch)
 		{
 			// If the character has a ceiling preventing them from standing up, keep them crouching
-			if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
+			IEnumerable<Collider2D> collisions
+				= Physics2D.OverlapCircleAll(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround)
+					.Where(it => !it.isTrigger);
+			if (collisions.Count() > 0)
 			{
 				crouch = true;
 			}
