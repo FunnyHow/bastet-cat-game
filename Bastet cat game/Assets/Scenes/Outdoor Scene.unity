@@ -638,10 +638,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5842768240390682416, guid: 58afdbd9791888f65a5b1dcd7b6624ee, type: 3}
-      propertyPath: m_SortingOrder
-      value: 23
-      objectReference: {fileID: 0}
     - target: {fileID: 8448052346476328397, guid: 58afdbd9791888f65a5b1dcd7b6624ee, type: 3}
       propertyPath: m_Name
       value: human1_sprite_sheet
