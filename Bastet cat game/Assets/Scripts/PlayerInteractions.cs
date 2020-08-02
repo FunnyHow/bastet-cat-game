@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerInteractions : MonoBehaviour
 {
@@ -8,7 +9,20 @@ public class PlayerInteractions : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip hiss;
     public AudioClip meow;
+    public AudioClip[] damageMeow;
+  
     // Start is called before the first frame update
+
+    private int RandomFromList()
+    {
+        System.Random rnd = new System.Random();
+        return rnd.Next(damageMeow.Length);
+    }
+
+    public void OnDamage()
+    {
+        audioSource.PlayOneShot(damageMeow[RandomFromList()], 0.7f);
+    }
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
