@@ -9,6 +9,7 @@ public class PlayerCombat : MonoBehaviour
     public Animator animator;
     public Transform attackPoint;
     public float attackRange = 0.5f;
+    public int attackDamage = 20;
 
 
 
@@ -22,9 +23,13 @@ public class PlayerCombat : MonoBehaviour
         // do damage
 
         foreach (Collider2D item in hitObjects) {
-            if (item.tag == "Enemy")
+            if (item.CompareTag("Enemy"))
             {
                 Debug.Log("hit this " + item.name);
+
+                Enemy foo = item.GetComponent<Enemy>();
+                foo.TakeDamage(attackDamage);
+                Debug.Log("enemy hp" + foo.currentHealth);
             }
         }
 
