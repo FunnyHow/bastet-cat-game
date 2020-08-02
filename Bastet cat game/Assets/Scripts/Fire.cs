@@ -24,16 +24,9 @@ public class Fire : MonoBehaviour
 
     void UpdateDamageables() {
         affectedObjects = new HashSet<Health>((from x in intersectingObjects
-            select FindDamageable(x.gameObject)).Where(it => it != null));
+            select x.gameObject.FindComponentInSelfOrParents<Health>())
+            .Where(it => it != null));
 
-    }
-
-    Health FindDamageable(GameObject obj) {
-        Health selfHealth = obj.gameObject.GetComponentInParent<Health>();
-        if(selfHealth != null) return selfHealth;
-        Health parentHealth = obj.gameObject.GetComponentInParent<Health>();
-        if(parentHealth != null) return parentHealth;
-        return null;
     }
 
     IEnumerator DamageOthers()
