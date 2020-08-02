@@ -1160,42 +1160,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 770610827}
     m_Modifications:
-    - target: {fileID: 1846514632, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
-      propertyPath: ankhs.Array.data[0]
-      value: 
-      objectReference: {fileID: 60104851}
-    - target: {fileID: 1846514632, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
-      propertyPath: ankhs.Array.data[1]
-      value: 
-      objectReference: {fileID: 2008587633}
-    - target: {fileID: 1846514632, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
-      propertyPath: ankhs.Array.data[2]
-      value: 
-      objectReference: {fileID: 2027961590}
-    - target: {fileID: 1846514632, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
-      propertyPath: ankhs.Array.data[3]
-      value: 
-      objectReference: {fileID: 1586952645}
-    - target: {fileID: 1846514632, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
-      propertyPath: ankhs.Array.data[4]
-      value: 
-      objectReference: {fileID: 915946466}
-    - target: {fileID: 1846514632, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
-      propertyPath: ankhs.Array.data[5]
-      value: 
-      objectReference: {fileID: 1059099575}
-    - target: {fileID: 1846514632, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
-      propertyPath: ankhs.Array.data[6]
-      value: 
-      objectReference: {fileID: 1809131371}
-    - target: {fileID: 1846514632, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
-      propertyPath: ankhs.Array.data[7]
-      value: 
-      objectReference: {fileID: 1776641630}
-    - target: {fileID: 1846514632, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
-      propertyPath: ankhs.Array.data[8]
-      value: 
-      objectReference: {fileID: 1297654817}
     - target: {fileID: 4135579325825431867, guid: 73b48fde0f40b094e9da04145452c588, type: 3}
       propertyPath: m_Name
       value: cat_sprite_sheet
