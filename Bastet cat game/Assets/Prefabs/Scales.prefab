@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 190587464991529798}
   - component: {fileID: 190587464991529793}
   - component: {fileID: 190587464991529792}
+  - component: {fileID: 505792673}
   m_Layer: 0
   m_Name: feather_heiroglyph
   m_TagString: Untagged
@@ -217,6 +218,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.39, y: 1.12}
   m_EdgeRadius: 0
+--- !u!255 &505792673
+FixedJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190587464991529794}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 190587465104397476}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: -0.2400006, y: 0.3900001}
+  m_DampingRatio: 0
+  m_Frequency: 0
 --- !u!1 &190587465007343589
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,5 +787,10 @@ PrefabInstance:
 --- !u!4 &190587465104397473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8079836333314435525, guid: f996b76a8d3e3649d8eb8a6223c78020, type: 3}
+  m_PrefabInstance: {fileID: 8251793106193677668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &190587465104397476 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 8079836333314435520, guid: f996b76a8d3e3649d8eb8a6223c78020, type: 3}
   m_PrefabInstance: {fileID: 8251793106193677668}
   m_PrefabAsset: {fileID: 0}
