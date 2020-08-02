@@ -55,7 +55,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39214696845125837}
   m_LocalRotation: {x: 0, y: -0, z: -0.9574197, w: 0.28869972}
-  m_LocalPosition: {x: 0.6994029, y: -0.5854593, z: 0}
+  m_LocalPosition: {x: 0.71133983, y: -0.39490122, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3815852000142580052}
@@ -84,13 +84,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440933629382089319}
-  m_LocalRotation: {x: -0, y: -0, z: -0.009542824, w: 0.99995446}
-  m_LocalPosition: {x: 1.8481212, y: -0.00000017075148, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.15420762, w: 0.9880385}
+  m_LocalPosition: {x: 1.805094, y: 0.061292887, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3052101696914318536}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.094}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 17.742}
 --- !u!1 &581047607694676694
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,13 +451,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5645716535719738455}
-  m_LocalRotation: {x: -0, y: -0, z: -0.058005158, w: 0.9983163}
+  m_LocalRotation: {x: -0, y: -0, z: -0.012475871, w: 0.9999222}
   m_LocalPosition: {x: 0.0038926601, y: 0.8672899, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3815852000142580052}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.651}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.43}
 --- !u!1 &5879488441500959302
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,9 +599,12 @@ GameObject:
   - component: {fileID: 625651814974871109}
   - component: {fileID: 5842768240390682416}
   - component: {fileID: 6891588029308221059}
+  - component: {fileID: 369723569}
+  - component: {fileID: 369723574}
+  - component: {fileID: 369723573}
   m_Layer: 0
   m_Name: human1_sprite_sheet
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -709,10 +712,69 @@ MonoBehaviour:
   - {fileID: 4200118770502700958}
   - {fileID: 8079337868343823390}
   m_Bounds:
-    m_Center: {x: -2.0409942, y: 1.2895517, z: 0}
-    m_Extent: {x: 4.293813, y: 6.1426697, z: 0}
+    m_Center: {x: -2.0717626, y: 1.3489866, z: 0}
+    m_Extent: {x: 4.263045, y: 6.2021046, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
+--- !u!61 &369723569
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8448052346476328397}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.0409942, y: 1.2895517}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 18.38, y: 13.13}
+    newSize: {x: 18.38, y: 13.13}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.587626, y: 12.285339}
+  m_EdgeRadius: 0
+--- !u!95 &369723574
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8448052346476328397}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3b8d9da33bfed6f49a8bd2c38a4df5ae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &369723573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8448052346476328397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8535fbf0939ee94da2451ce16fe0dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
 --- !u!1 &8615281703675949269
 GameObject:
   m_ObjectHideFlags: 0
