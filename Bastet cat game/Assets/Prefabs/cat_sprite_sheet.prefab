@@ -1365,6 +1365,10 @@ MonoBehaviour:
   audioSource: {fileID: 7820160853362433570}
   hiss: {fileID: 8300000, guid: 2b68d3468592f10438de48121752c175, type: 3}
   meow: {fileID: 8300000, guid: 465c63db04749f1479647c28bd2db8bd, type: 3}
+  damageMeow:
+  - {fileID: 8300000, guid: de0906107e917a245bcee0d1755a79af, type: 3}
+  - {fileID: 8300000, guid: f6ca56a40b7c18a438f2c1e286834e6e, type: 3}
+  - {fileID: 8300000, guid: 45cdfd51db808bb4a8981c958df4a826, type: 3}
 --- !u!50 &2160661289426478709
 Rigidbody2D:
   serializedVersion: 4
@@ -1521,6 +1525,21 @@ MonoBehaviour:
   - {fileID: 0}
   fullAnkh: {fileID: 21300000, guid: f986024158411a345be960215edbcffc, type: 3}
   emptyAnkh: {fileID: 21300000, guid: c0329e3e927aff442a87ed34485c5ac7, type: 3}
+  onDamage:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2676779372203367035}
+        m_TargetAssemblyTypeName: PlayerInteractions, Assembly-CSharp
+        m_MethodName: OnDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1965524376
 MonoBehaviour:
   m_ObjectHideFlags: 0

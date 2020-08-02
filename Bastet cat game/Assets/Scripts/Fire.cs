@@ -35,7 +35,7 @@ public class Fire : MonoBehaviour
         {
             yield return new WaitForSeconds(1);
             foreach (Health damageable in affectedObjects) {
-                damageable.health--;
+                damageable.TakeDamage();
             }
         }
     }

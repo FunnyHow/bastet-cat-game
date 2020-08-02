@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
@@ -10,6 +11,13 @@ public class Health : MonoBehaviour
     public Image[] ankhs;
     public Sprite fullAnkh;
     public Sprite emptyAnkh;
+    public UnityEvent onDamage;
+
+    public void TakeDamage()
+    {
+        onDamage.Invoke();
+        health--;
+    }
 
 
     // Update is called once per frame
