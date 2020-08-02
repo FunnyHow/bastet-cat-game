@@ -611,6 +611,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &371717192 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 190587466477461823, guid: 538ba44a7191b729ba9d060c76c6392e, type: 3}
+  m_PrefabInstance: {fileID: 190587465417463114}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &516250174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,6 +1677,22 @@ PrefabInstance:
     - target: {fileID: 190587464473116341, guid: 538ba44a7191b729ba9d060c76c6392e, type: 3}
       propertyPath: m_Name
       value: Scales
+      objectReference: {fileID: 0}
+    - target: {fileID: 190587465104397479, guid: 538ba44a7191b729ba9d060c76c6392e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 190587465104397479, guid: 538ba44a7191b729ba9d060c76c6392e, type: 3}
+      propertyPath: m_ConnectedRigidBody
+      value: 
+      objectReference: {fileID: 371717192}
+    - target: {fileID: 190587465104397479, guid: 538ba44a7191b729ba9d060c76c6392e, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2.5100005
+      objectReference: {fileID: 0}
+    - target: {fileID: 190587465104397479, guid: 538ba44a7191b729ba9d060c76c6392e, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.026000855
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538ba44a7191b729ba9d060c76c6392e, type: 3}
