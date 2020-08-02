@@ -51,7 +51,6 @@ public class CharacterController2D : MonoBehaviour
 	{
         if (m_Animator != null)
         {
-            Debug.Log(m_Velocity.x);
             m_Animator.SetBool("Grounded", m_Grounded);
             m_Animator.SetBool("FacingRight", m_FacingRight);
             m_Animator.SetBool("Crouching", m_Crouching);

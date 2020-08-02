@@ -1077,9 +1077,10 @@ GameObject:
   - component: {fileID: 588271030458610581}
   - component: {fileID: 694540165506633729}
   - component: {fileID: 639605105888946748}
+  - component: {fileID: 1846514632}
   m_Layer: 8
   m_Name: cat_sprite_sheet
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1489,6 +1490,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 40
+--- !u!114 &1846514632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4135579325825431867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e85eb33a98e3184691839a616aa8661, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 9
+  numberofAnkhs: 9
+  ankhs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullAnkh: {fileID: 21300000, guid: f986024158411a345be960215edbcffc, type: 3}
+  emptyAnkh: {fileID: 21300000, guid: c0329e3e927aff442a87ed34485c5ac7, type: 3}
 --- !u!1 &4135579325914965820
 GameObject:
   m_ObjectHideFlags: 0
