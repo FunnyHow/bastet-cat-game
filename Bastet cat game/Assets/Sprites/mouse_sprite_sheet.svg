@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="mouse_sprite_sheet.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect126"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect120"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="337.14286"
+     inkscape:cy="217.14286"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       style="fill:#808080;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 4.8852186,31.045982 2.05618,10.970468 -1.51365,12.21257 -4.88513953,10.344116 -6.64910997,3.434057 -3.30892,2.912193 -3.0479701,4.5823 4.0604201,-0.292219 -4.9790101,3.173127 9.0707201,-1.075027 -2.32775,4.811946 5.43831,-4.613586 5.2086595,-3.893358 4.25879,-3.402772 3.4446904,-10.803406 13.98715,-9.028811 2.9854,-9.362947 z"
+       id="path53" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       id="path53-8"
+       d="m -44.698072,23.857213 2.05618,10.970469 -1.51365,12.21257 -4.88514,10.344117 -6.64911,3.434056 -3.30892,2.912195 -3.04797,4.582297 4.06042,-0.292219 -4.97901,3.173129 9.07072,-1.075028 -2.32775,4.811945 5.43831,-4.613584 5.20866,-3.89336 4.25879,-3.402772 3.44469,-10.803406 13.98715,-9.02881 2.9854,-9.362947 z"
+       style="fill:#808080;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       id="path53-9"
+       d="m 112.92663,-6.5720414 2.05618,10.97047 -1.51365,12.2125704 -4.88514,10.34412 -6.64911,3.43405 -3.308916,2.9122 -3.04797,4.58229 4.06042,-0.29221 -4.97901,3.17312 9.070716,-1.07502 -2.32775,4.81194 5.43831,-4.61358 5.20866,-3.89336 4.25879,-3.40277 3.44469,-10.80341 13.98715,-9.02881 2.9854,-9.3629504 z"
+       style="fill:#808080;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       style="fill:#808080;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 104.09331,-61.227125 2.05618,10.97047 -1.51365,12.21257 -4.885138,10.34412 -6.64911,3.43405 -3.30892,2.9122 -3.04797,4.58229 4.06042,-0.29221 -4.97901,3.17312 9.07072,-1.07502 -2.32775,4.81194 5.43831,-4.61358 5.208658,-3.89336 4.25879,-3.40277 3.44469,-10.80341 13.98715,-9.02881 2.9854,-9.36295 z"
+       id="path53-9-3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       style="fill:#808080;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -67.279763,-43.089289 18.05448,-9.786539 13.87523,-4.007758 16.41447,-1.775816 15.1674997,1.179076 8.58002,3.040627 11.6885603,6.673211 9.58762,7.527154 15.12702,19.147812 10.87987,12.7139939 6.21708,7.265141 2.27721,5.6025 -2.0783,4.924818 -1.94729,3.2395471 -7.70344,3.131172 -13.61322,0.637211 -18.53804,-1.441099 -14.7518303,-2.164038 -11.81957,-4.9879271 -15.1901197,-5.249939 -13.50485,-5.118944 -18.29865,-8.8825059 -15.19013,-5.249948 -9.14932,-4.441254 2.6476,-3.524194 3.17164,-10.265302 -3.70048,-9.104061 z"
+       id="path28" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3">
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       style="fill:#808080;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -46.113097,-123.22024 -11.33928,8.31547 -6.80358,6.04762 -7.55952,8.31548 -6.04762,6.803573 -2.267857,2.26785 3.023807,5.29167 9.82738,3.77976 8.31548,1.51191 12.09524,1.5119 h 6.04762 l 9.82738,-0.75595 9.82738,-6.04762 10.58333,-4.53571 8.3154803,-6.047622 4.53571,-3.779761 1.51191,-7.55952 -2.26786,-3.02381 -9.82738,-5.29167 -9.0714303,-4.53572 -8.31548,-3.0238 h -9.07143 z"
+       id="path32" />
+    <ellipse
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       transform="matrix(0.83336841,0.55271791,-0.58235482,0.81293473,0,0)"
+       ry="24.083868"
+       rx="13.147176"
+       cy="-132.68523"
+       cx="-87.277321"
+       id="path34-1"
+       style="fill:#808080;stroke-width:0.332425" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 4">
+    <ellipse
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       style="fill:#ffd5d5;stroke-width:0.202079"
+       id="path34"
+       cx="-85.405624"
+       cy="-132.56262"
+       rx="7.9375024"
+       ry="14.74107"
+       transform="rotate(34.577939)" />
+    <ellipse
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       style="fill:#ffff00;stroke-width:0.152757"
+       id="path113"
+       cx="-0.73243755"
+       cy="-118.20702"
+       rx="6.0476189"
+       ry="2.2678571"
+       transform="rotate(-20.62988)" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="C:\Users\empar\Workspace\bastet-cat-game\Bastet cat game\Assets\Sprites\mouse_sprite_sheet.png"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.56165;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+       d="m 40.027372,65.193089 c -1.5359,0.734096 -2.33973,2.481406 -1.94413,4.226057 0.47254,2.084822 2.47818,3.449712 4.47933,3.048276 3.73133,-0.748584 7.65131,-0.735132 11.43952,0.03924 1.82701,0.37348 3.54198,0.911179 5.05343,1.673748 1.50292,0.758239 2.82587,1.759624 3.7938,2.923491 1.29303,1.554782 2.15888,3.671072 2.46521,5.883442 0.30935,2.234202 0.0876,4.638361 -0.53728,6.990345 -1.00261,3.772698 -2.98973,7.32501 -5.55363,10.442402 -2.57016,3.12501 -5.72591,5.85039 -9.15551,8.33005 -5.6607,4.0928 -11.87417,7.40244 -18.42524,9.8044 -9.40135,3.44705 -19.56247,5.05435 -29.8803801,5.79463 -5.44201,0.39045 -10.90167,0.54266 -16.3568399,0.41504 -0.44644,-0.0104 -0.9001,-0.023 -1.3625,-0.0346 -12.79875,-0.32227 -25.58263,0.21371 -38.24464,1.60476 -2.03355,0.22351 -3.43735,2.11573 -3.13555,4.22648 0.30122,2.11165 -2.03429,0.22377 0,0 12.34284,-1.35596 29.03357,1.53892 41.50969,1.85308 0.45076,0.0113 0.90998,0.024 1.37668,0.0349 5.7025599,0.1334 11.3894499,-0.0268 17.0385599,-0.43206 10.7167001,-0.76888 21.5366401,-2.44271 31.8042301,-6.20735 7.15776,-2.62439 13.93489,-6.23311 20.11599,-10.70215 3.74704,-2.70917 7.37859,-5.80663 10.47403,-9.57031 3.1017,-3.77131 5.64542,-8.214157 6.98113,-13.241314 0.83657,-3.149164 1.20656,-6.575125 0.72106,-10.081611 -0.48854,-3.528382 -1.85132,-7.061494 -4.27351,-9.974019 -1.80249,-2.167371 -4.01369,-3.777865 -6.31514,-4.939002 -2.29292,-1.156835 -4.65456,-1.864127 -6.945,-2.332346 -4.74915,-0.970801 -9.62373,-0.988308 -14.30155,-0.04984 -0.28476,0.05728 -0.5606,0.149295 -0.82176,0.274203 z"
+       id="path953"
+       sodipodi:nodetypes="cccssssssssssscccssssssssssscc" />
+  </g>
+</svg>
