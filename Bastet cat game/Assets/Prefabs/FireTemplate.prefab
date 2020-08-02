@@ -230,8 +230,8 @@ MonoBehaviour:
   - {fileID: 540535490}
   - {fileID: 2086490122}
   m_Bounds:
-    m_Center: {x: 0.15631461, y: 0.02325368, z: 0}
-    m_Extent: {x: 2.968741, y: 2.0758114, z: 0}
+    m_Center: {x: 0.15631318, y: 0.02325368, z: 0}
+    m_Extent: {x: 2.9687417, y: 2.0758114, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!95 &76089566
@@ -5694,7 +5694,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.84816355, b: 0.49056602, a: 1}
-  m_Intensity: 0.45
+  m_Intensity: 0.8
   m_LightVolumeOpacity: 0.24
   m_ApplyToSortingLayers: 394c1c2700000000ef784c4f
   m_LightCookieSprite: {fileID: 0}
@@ -5706,7 +5706,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 1.64
-  m_PointLightOuterRadius: 5.69
+  m_PointLightOuterRadius: 9.05
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
